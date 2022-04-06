@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unknownianmysteries:blocks/orangewood_log_top",
+    "up": "unknownianmysteries:blocks/orangewood_log_top",
+    "north": "unknownianmysteries:blocks/orangewood_log_side",
+    "east": "unknownianmysteries:blocks/orangewood_log_side",
+    "south": "unknownianmysteries:blocks/orangewood_log_side",
+    "west": "unknownianmysteries:blocks/orangewood_log_side",
+    "particle": "unknownianmysteries:blocks/orangewood_log_top"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:CyanColdOcean"
+      },
+      {
+        "value": "CUSTOM:CyanWarmOcean"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#9"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:UnknownianRedPortalBlock"
+    },
+    "portalParticles": {
+      "value": "WATER_SPLASH"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.fire.extinguish"
+    },
+    "igniterName": "Cyan Realm Core",
+    "igniterTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "texture": "cyancore",
+    "portalTexture": "cyanportal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UntexturedRealmPortalTriggerUsed"
+    }
+  }
+}

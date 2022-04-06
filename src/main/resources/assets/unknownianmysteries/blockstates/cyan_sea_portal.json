@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "unknownianmysteries:block/cyan_sea_portal_ew"
+    },
+    "axis=x": {
+      "model": "unknownianmysteries:block/cyan_sea_portal_ns"
+    }
+  }
+}

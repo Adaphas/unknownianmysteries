@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "unknowniansword",
+    "customModelName": "Normal",
+    "name": "Unknownian Weapon",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "stackSize": 1,
+    "enchantability": 30,
+    "useDuration": 0,
+    "toolType": 1.5,
+    "damageCount": 6093,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
+    "specialInfo": [
+      "This weapon appears to be in sword form...there may be a way to change it. (Keybind)"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "UnknownianWeaponSwordModeItemInHandTick"
+    },
+    "hasDispenseBehavior": false
+  }
+}

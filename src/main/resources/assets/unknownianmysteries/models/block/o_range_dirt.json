@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unknownianmysteries:blocks/orangedirt",
+    "particle": "unknownianmysteries:blocks/orangedirt"
+  }
+}

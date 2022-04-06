@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unknownianmysteries:blocks/orangewood_log_side",
+    "particle": "unknownianmysteries:blocks/orangewood_log_side"
+  }
+}

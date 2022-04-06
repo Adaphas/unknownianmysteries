@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 69.0,
+    "cookingTime": 2400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:UnknownianRawMetal"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UnknownianMetal"
+    },
+    "name": "unknownian_metal_smelt_recipe",
+    "namespace": "mod"
+  }
+}

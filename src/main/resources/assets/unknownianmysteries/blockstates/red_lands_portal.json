@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "unknownianmysteries:block/red_lands_portal_ew"
+    },
+    "axis=x": {
+      "model": "unknownianmysteries:block/red_lands_portal_ns"
+    }
+  }
+}

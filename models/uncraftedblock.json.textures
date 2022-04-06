@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mistake"
+      },
+      "name": "default"
+    },
+    "mistake": {
+      "map": {
+        "0": "mistake"
+      },
+      "name": "mistake"
+    }
+  }
+}

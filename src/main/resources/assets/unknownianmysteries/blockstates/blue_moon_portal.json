@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "unknownianmysteries:block/blue_moon_portal_ew"
+    },
+    "axis=x": {
+      "model": "unknownianmysteries:block/blue_moon_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "unknownianmysteries:blocks/orangewood_planks",
+    "particle": "unknownianmysteries:blocks/orangewood_planks"
+  }
+}

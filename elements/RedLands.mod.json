@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:UnknownianRedBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#14"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -65485,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:UnknownianRedPortalBlock"
+    },
+    "portalParticles": {
+      "value": "HEART"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.amethyst_block.break"
+    },
+    "igniterName": "Red Realm Core",
+    "igniterTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "texture": "redcore",
+    "portalTexture": "redportal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UntexturedRealmPortalTriggerUsed"
+    }
+  }
+}

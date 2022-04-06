@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:blue_moon"
+    },
+    "title": {
+      "translate": "advancements.unknownian_blue_moon.title"
+    },
+    "description": {
+      "translate": "advancements.unknownian_blue_moon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknownian_blue_moon": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "unknownianmysteries:blue_moon"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "unknownianmysteries:unknownian_mysteries_start"
+}

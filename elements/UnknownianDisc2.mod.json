@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc2",
+    "name": "Unknownian Disc #2",
+    "description": "A Music Disc of the Unknown",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "music": {
+      "value": "CUSTOM:unknownianvania"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OrangeWoodWood"
+      },
+      {
+        "value": "CUSTOM:OrangeWoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "orangewood_log",
+    "namespace": "forge"
+  }
+}

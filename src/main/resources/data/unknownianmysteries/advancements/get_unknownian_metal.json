@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:unknownian_metal"
+    },
+    "title": {
+      "translate": "advancements.get_unknownian_metal.title"
+    },
+    "description": {
+      "translate": "advancements.get_unknownian_metal.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_unknownian_metal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unknownianmysteries:unknownian_metal",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "unknownianmysteries:get_unknownian_raw_metal"
+}

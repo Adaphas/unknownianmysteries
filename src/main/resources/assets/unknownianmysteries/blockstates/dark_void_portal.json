@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "unknownianmysteries:block/dark_void_portal_ew"
+    },
+    "axis=x": {
+      "model": "unknownianmysteries:block/dark_void_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc8",
+    "name": "Unknownian Disc #8",
+    "description": "A Music Disc of the Unknown",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "music": {
+      "value": "CUSTOM:unknownianduckgame"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

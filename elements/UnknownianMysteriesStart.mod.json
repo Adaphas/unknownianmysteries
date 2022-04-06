@@ -1,0 +1,25 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Unknownian Mysteries",
+    "achievementDescription": "Welcome to the mysterious myths of the Unknownians of Old. You may want to get some really fancy meteorite first...",
+    "achievementIcon": {
+      "value": "CUSTOM:UnknownianBlockOfMystery"
+    },
+    "background": "blfdvbhlnjiewgrjliegrlbhyikesrgj.lkgestbhyjkesgtrfdnhj.lkzgtfnhuj.kesgrfdnhuj.kmnhjkzsbgrfmhjd.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"184\" y=\"95\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:green_dream"
+    },
+    "title": {
+      "translate": "advancements.unknownian_green_dream.title"
+    },
+    "description": {
+      "translate": "advancements.unknownian_green_dream.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknownian_green_dream": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "unknownianmysteries:green_dream"
+      }
+    }
+  },
+  "parent": "unknownianmysteries:unknownian_portal_obtained"
+}

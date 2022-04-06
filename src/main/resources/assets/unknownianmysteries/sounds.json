@@ -1,0 +1,112 @@
+{
+  "unknownianredzone": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianredzone",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:tranception_-_red_zone",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianvania": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianvania",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:assholevania_-_the_angry_video_game_nerd_adventures_ost",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianfuture": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianfuture",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:future_fuckballs_2010_-_the_angry_video_game_nerd_adventures_ost",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianamongdrip": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianamongdrip",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:among_us_drip_theme_song_original_among_us_trap_remix___amogus_meme_music",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianinkingmistake": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianinkingmistake",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:underverse_ost_-_inking_mistake_snes_demake",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianoverwrite": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianoverwrite",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:underverse_ost_-_overwrite_xcharas_theme",
+        "stream": true
+      }
+    ]
+  },
+  "unknowniandreamscape": {
+    "category": "record",
+    "subtitle": "subtitles.unknowniandreamscape",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:trance_-_009_sound_system_dreamscape_hd",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianduckgame": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianduckgame",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:duck_game_ost_-_yuzo_koshiro_is_my_hero",
+        "stream": true
+      }
+    ]
+  },
+  "unknownianfunkfield": {
+    "category": "record",
+    "subtitle": "subtitles.unknownianfunkfield",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:funkfield_2042",
+        "stream": true
+      }
+    ]
+  },
+  "unknowniantruesong": {
+    "category": "record",
+    "subtitle": "subtitles.unknowniantruesong",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:thetrueunknowniansong",
+        "stream": true
+      }
+    ]
+  },
+  "greendeathsoundunknownian": {
+    "category": "neutral",
+    "subtitle": "subtitles.greendeathsoundunknownian",
+    "sounds": [
+      {
+        "name": "unknownianmysteries:greendeathsound",
+        "stream": false
+      }
+    ]
+  }
+}

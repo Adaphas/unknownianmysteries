@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "unknownianmysteries:orange_wood_stick"
+    },
+    "1": {
+      "item": "unknownianmysteries:orange_wood_planks"
+    },
+    "2": {
+      "item": "unknownianmysteries:orange_wood_stick"
+    },
+    "3": {
+      "item": "unknownianmysteries:orange_wood_stick"
+    },
+    "4": {
+      "item": "unknownianmysteries:orange_wood_planks"
+    },
+    "5": {
+      "item": "unknownianmysteries:orange_wood_stick"
+    }
+  },
+  "result": {
+    "item": "unknownianmysteries:orange_wood_fence_gate",
+    "count": 1
+  }
+}

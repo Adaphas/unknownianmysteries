@@ -1,0 +1,2329 @@
+{
+  "mod_elements": [
+    {
+      "name": "UnknownianDrone",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_drone"
+    },
+    {
+      "name": "UnknownianDisc1",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_1",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc2",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_2",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc3",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_3",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc4",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_4",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc5",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_5",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc6",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_6",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc7",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_7",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc8",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_8",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianPowerCore",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_power_core"
+    },
+    {
+      "name": "UnknownianFuel",
+      "type": "fuel",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_fuel"
+    },
+    {
+      "name": "UnknownianStaffOfPowerItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_staff_of_power_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianStaffOfPowerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_staff_of_power_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianStaffOfPower",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_staff_of_power"
+    },
+    {
+      "name": "UnknownianRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_recipe"
+    },
+    {
+      "name": "UnknownianRedPortalBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_red_portal_block"
+    },
+    {
+      "name": "UnknownianOrbOfAbsoluteInfinityMakeItemGlow",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_orb_of_absolute_infinity_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianReplicatorDisc",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_disc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianReplicatorInput",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_input",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianBlockOfMystery",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_block_of_mystery"
+    },
+    {
+      "name": "UnknownianMysteryLoot",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_mystery_loot"
+    },
+    {
+      "name": "UnknownianReplicatorCore",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianReplicatorOutput",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianReplicatorMenu",
+      "type": "gui",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_menu"
+    },
+    {
+      "name": "UnknownianReplicatorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianReplicator",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_replicator"
+    },
+    {
+      "name": "SurfaceteleportCommandExecuted",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surfaceteleport_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Surfaceteleport",
+      "type": "command",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surfaceteleport"
+    },
+    {
+      "name": "NetherteleportCommandExecuted",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherteleport_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherteleport",
+      "type": "command",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherteleport"
+    },
+    {
+      "name": "EndteleportCommandExecuted",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endteleport_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Endteleport",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endteleport"
+    },
+    {
+      "name": "UnknownianRedBiome",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_red_biome",
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "UnknownianMetalOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_ore"
+    },
+    {
+      "name": "UnknownianGrassEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_grass_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Corrupted Blocks"
+    },
+    {
+      "name": "UnknownianGrassOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_grass_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Corrupted Blocks"
+    },
+    {
+      "name": "UnknownianGrass",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_grass",
+      "path": "~/Corrupted Blocks"
+    },
+    {
+      "name": "UnknownianStone",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_stone",
+      "path": "~/Corrupted Blocks"
+    },
+    {
+      "name": "FakeStoneHiddenChest",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_stone_hidden_chest"
+    },
+    {
+      "name": "FakeStoneHiddenChestGUI",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_stone_hidden_chest_gui"
+    },
+    {
+      "name": "UnknownianMetalMakeItemGlow",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianMetalItemInHandTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianMetal",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal"
+    },
+    {
+      "name": "Lootiguessidk",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lootiguessidk"
+    },
+    {
+      "name": "Stonehiddenchestcraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonehiddenchestcraft"
+    },
+    {
+      "name": "UnknownianRawMetal",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_raw_metal"
+    },
+    {
+      "name": "UnknownianMetalLoot",
+      "type": "loottable",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_loot"
+    },
+    {
+      "name": "UnknownianMetalBlastRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_blast_recipe"
+    },
+    {
+      "name": "UnknownianMetalSmeltRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_metal_smelt_recipe"
+    },
+    {
+      "name": "UnknownianDirt",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_dirt",
+      "path": "~/Corrupted Blocks"
+    },
+    {
+      "name": "UnknownianMysteriesStart",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_mysteries_start"
+    },
+    {
+      "name": "GetUnknownianMetal",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_unknownian_metal"
+    },
+    {
+      "name": "GetUnknownianRawMetal",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_unknownian_raw_metal"
+    },
+    {
+      "name": "MakeHiddenChestInStone",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_hidden_chest_in_stone"
+    },
+    {
+      "name": "UnGravitizerMakeItemGlow",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_gravitizer_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "Buttonappearungravitizer",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttonappearungravitizer",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UnGravitizer",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_gravitizer",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UnGravitizerUse",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_gravitizer_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_block_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_block",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedBiome",
+      "type": "biome",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_biome",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedOtherBiome",
+      "type": "biome",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_other_biome",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmPortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_portal_trigger_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealm",
+      "type": "dimension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedCube",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_cube",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UnGravitizerMake",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_gravitizer_make",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedRealmCoreCraft",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_realm_core_craft",
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedCubeEntityDies",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_cube_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UntexturedCubeItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "untextured_cube_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Untextured Realm"
+    },
+    {
+      "name": "UnknownianRealmCoreMakerGUI",
+      "type": "gui",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_realm_core_maker_gui"
+    },
+    {
+      "name": "Restature",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restature",
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "Redidos",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redidos",
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "RedidosInventory",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redidos_inventory",
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "UnknownianMysteriesTab",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_mysteries_tab"
+    },
+    {
+      "name": "FormatedRealmCore",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formated_realm_core"
+    },
+    {
+      "name": "RedLands",
+      "type": "dimension",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lands",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "BlueMoonGravityStart",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_gravity_start",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonGravityStop",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_gravity_stop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonRock",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_rock",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonSickness",
+      "type": "potioneffect",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_sickness",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "CyanColdOcean",
+      "type": "biome",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cold_ocean",
+      "path": "~/Cyan Sea"
+    },
+    {
+      "name": "CyanWarmOcean",
+      "type": "biome",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_warm_ocean",
+      "path": "~/Cyan Sea"
+    },
+    {
+      "name": "CyanSea",
+      "type": "dimension",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_sea",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Cyan Sea"
+    },
+    {
+      "name": "BlueMoonHighlands",
+      "type": "biome",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_highlands",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonFlatlands",
+      "type": "biome",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_flatlands",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonLowlands",
+      "type": "biome",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_lowlands",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "UnknownianDisc9",
+      "type": "musicdisc",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_9",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "UnknownianDisc0",
+      "type": "musicdisc",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_disc_0",
+      "path": "~/Unknownian Discs"
+    },
+    {
+      "name": "BlueMoon",
+      "type": "dimension",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonProtection",
+      "type": "enchantment",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection",
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonGiveSickness",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_give_sickness",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonProtectionGetValue",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_get_value",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonSicknessOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_sickness_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonSicknessEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_sickness_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blue Moon"
+    },
+    {
+      "name": "BlueMoonSicknessEffectExpires",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_sickness_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianRealmConvert",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_realm_convert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianSwitchMode",
+      "type": "keybind",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_switch_mode"
+    },
+    {
+      "name": "UnknownianSwitchModeOnKeyPressed",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_switch_mode_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianWeaponSwordMode",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_weapon_sword_mode"
+    },
+    {
+      "name": "UnknownianWeaponGunForm",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_weapon_gun_form"
+    },
+    {
+      "name": "UnknownianWeaponGunFormRightClickedInAir",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_weapon_gun_form_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianWeaponGunFormItemInHandTick",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_weapon_gun_form_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownianWeaponSwordModeItemInHandTick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_weapon_sword_mode_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueMoonProtectionSuitArmor",
+      "type": "armor",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_suit_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlueMoonProtectionSuitArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_suit_armor_helmet_recipe"
+    },
+    {
+      "name": "BlueMoonProtectionSuitArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_suit_armor_body_recipe"
+    },
+    {
+      "name": "BlueMoonProtectionSuitArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_suit_armor_leggings_recipe"
+    },
+    {
+      "name": "BlueMoonProtectionSuitArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_moon_protection_suit_armor_boots_recipe"
+    },
+    {
+      "name": "UnknownianNuke",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_nuke"
+    },
+    {
+      "name": "UnknownianNukeGUIButtonPressed",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_nuke_gui_button_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkVoidBiome",
+      "type": "biome",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_void_biome",
+      "path": "~/Dark Void"
+    },
+    {
+      "name": "DarkVoid",
+      "type": "dimension",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_void",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dark Void"
+    },
+    {
+      "name": "GreenDreamBlock",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_dream_block",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "SuperflatGreenDream",
+      "type": "biome",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superflat_green_dream",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "CrazyGreenDream",
+      "type": "biome",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crazy_green_dream",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "GreenDream",
+      "type": "dimension",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_dream",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "UnknownianPortalObtained",
+      "type": "achievement",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_portal_obtained"
+    },
+    {
+      "name": "UnknownianRedLands",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_red_lands",
+      "path": "~/Red Lands"
+    },
+    {
+      "name": "UnknownianGreenDream",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_green_dream",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "UnknownianCyanSea",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_cyan_sea",
+      "path": "~/Cyan Sea"
+    },
+    {
+      "name": "UnknownianMainMenu",
+      "type": "overlay",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_main_menu"
+    },
+    {
+      "name": "SussyGreenBody",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_green_body",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "SussyGreenEntityDies",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_green_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "SussyGreen",
+      "type": "livingentity",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_green",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "SussyGreenBodyLoot",
+      "type": "loottable",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sussy_green_body_loot",
+      "path": "~/Green Dream"
+    },
+    {
+      "name": "UnknownianBlueMoon",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknownian_blue_moon"
+    },
+    {
+      "name": "DelariPrize",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delari_prize",
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "DelariMazeLoot",
+      "type": "loottable",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delari_maze_loot",
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "ItemElement",
+      "type": "code",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_element"
+    },
+    {
+      "name": "OoferSword",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oofer_sword",
+      "path": "~/Delari Maze/OoferDoge"
+    },
+    {
+      "name": "DelariItems",
+      "type": "tab",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delari_items",
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "DelariMazeWalls",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delari_maze_walls",
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "DelariMazeFloor",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delari_maze_floor",
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Delari Maze"
+    },
+    {
+      "name": "OrangeWoodWood",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_wood",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodLog",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_log",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodPlanks",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_planks",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodLeaves",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_leaves",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodStairs",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_stairs",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodSlab",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_slab",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodFence",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_fence",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodFenceGate",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_fence_gate",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodPressurePlate",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_pressure_plate",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodButton",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_button",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodItemsTag",
+      "type": "tag",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_items_tag",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_wood_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_planks_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_stairs_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_slab_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_fence_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_fence_gate_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_pressure_plate_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_button_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_stick_recipe",
+      "path": "~/O-range"
+    },
+    {
+      "name": "OrangeWoodStick",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wood_stick",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangeDirt",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_dirt",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangeGrass",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_grass",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangeGrassBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_grass_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangeForest",
+      "type": "biome",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_forest",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangePlains",
+      "type": "biome",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_plains",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORangeStone",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range_stone",
+      "path": "~/O-range"
+    },
+    {
+      "name": "ORange",
+      "type": "dimension",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_range",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/O-range"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "bluemoonprotectionvalue",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "timeroffbluemoon",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "unknownianmode",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "nothing"
+    },
+    {
+      "name": "unknownianwait",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "unknownianredzone",
+      "files": [
+        "tranception_-_red_zone"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianvania",
+      "files": [
+        "assholevania_-_the_angry_video_game_nerd_adventures_ost"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianfuture",
+      "files": [
+        "future_fuckballs_2010_-_the_angry_video_game_nerd_adventures_ost"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianamongdrip",
+      "files": [
+        "among_us_drip_theme_song_original_among_us_trap_remix___amogus_meme_music"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianinkingmistake",
+      "files": [
+        "underverse_ost_-_inking_mistake_snes_demake"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianoverwrite",
+      "files": [
+        "underverse_ost_-_overwrite_xcharas_theme"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknowniandreamscape",
+      "files": [
+        "trance_-_009_sound_system_dreamscape_hd"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianduckgame",
+      "files": [
+        "duck_game_ost_-_yuzo_koshiro_is_my_hero"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknownianfunkfield",
+      "files": [
+        "funkfield_2042"
+      ],
+      "category": "record",
+      "subtitle": "Music of the Unknown"
+    },
+    {
+      "name": "unknowniantruesong",
+      "files": [
+        "thetrueunknowniansong"
+      ],
+      "category": "record",
+      "subtitle": "Music of the True Unknown"
+    },
+    {
+      "name": "greendeathsoundunknownian",
+      "files": [
+        "greendeathsound"
+      ],
+      "category": "neutral",
+      "subtitle": "Green dude dying"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.unknownianmysteries.unknownian_disc_4.desc": "A Music Disc of the Unknown",
+      "enchantment.unknownianmysteries.blue_moon_protection": "Blue Moon Protection",
+      "key.categories.unknownian": "Unknownian Mysteries",
+      "item.unknownianmysteries.unknownian_drone_spawn_egg": "Unknownian Drone Spawn Egg",
+      "biome.unknownianmysteries.unknownian_red_biome": "Unknownian Red Biome",
+      "subtitles.unknownianfunkfield": "Music of the Unknown",
+      "item.unknownianmysteries.blue_moon_protection_suit_armor_chestplate": "BlueMoonProtectionSuit Chestplate",
+      "advancements.get_unknownian_metal.title": "Unstable Mess",
+      "biome.unknownianmysteries.o_range_plains": "O-range Plains",
+      "subtitles.unknownianinkingmistake": "Music of the Unknown",
+      "biome.unknownianmysteries.o_range_forest": "O Range Forest",
+      "death.attack.bluemoonsickness": "\u003cplayer\u003e succumbed to the Blue Moon Sickness",
+      "block.unknownianmysteries.o_range_dirt": "O-range Dirt",
+      "block.unknownianmysteries.orange_wood_fence_gate": "O-range Fence Gate",
+      "item.unknownianmysteries.red_lands": "Red Realm Core",
+      "block.unknownianmysteries.sussy_green_body": "Dead Green Body",
+      "block.unknownianmysteries.delari_maze_walls": "Delari Maze Walls",
+      "item.unknownianmysteries.cyan_sea": "Cyan Realm Core",
+      "item.unknownianmysteries.unknownian_disc_3.desc": "A Music Disc of the Unknown",
+      "item.unknownianmysteries.restature_spawn_egg": "Restature Spawn Egg",
+      "block.unknownianmysteries.untextured_realm_block": "Untextured Realm Block",
+      "biome.unknownianmysteries.cyan_cold_ocean": "Cyan Sea",
+      "entity.unknownianmysteries.untextured_cube": "Untextured Cube",
+      "block.unknownianmysteries.orange_wood_stairs": "O-range Stairs",
+      "item.unknownianmysteries.unknownian_disc_2.desc": "A Music Disc of the Unknown",
+      "block.unknownianmysteries.unknownian_stone": "Unknownian Stone",
+      "advancements.get_unknownian_raw_metal.descr": "Obtain Unknownian Raw Metal. Smelt it for some goodies!",
+      "advancements.unknownian_mysteries_start.descr": "Welcome to the mysterious myths of the Unknownians of Old. You may want to get some really fancy meteorite first...",
+      "biome.unknownianmysteries.superflat_green_dream": "Superflat Green Dream",
+      "biome.unknownianmysteries.dark_void_biome": "Dark Void Biome",
+      "advancements.make_hidden_chest_in_stone.descr": "Make a Fake Stone Hidden Chest.",
+      "block.unknownianmysteries.orange_wood_leaves": "O-range Leaves",
+      "item.unknownianmysteries.o_range": "Orange Realm Core",
+      "biome.unknownianmysteries.blue_moon_highlands": "Blue Moon Highlands",
+      "item.unknownianmysteries.unknownian_disc_5.desc": "A Music Disc of the Unknown",
+      "advancements.unknownian_cyan_sea.descr": "Adventure to the Cyan Sea",
+      "biome.unknownianmysteries.untextured_biome": "Untextured Forest Biome",
+      "item.unknownianmysteries.dark_void": "Dark Modified Realm Core",
+      "subtitles.unknowniandreamscape": "Music of the Unknown",
+      "itemGroup.tabunknownian_mysteries_tab": "Unknownian Mysteries",
+      "block.unknownianmysteries.green_dream_block": "Green Dream Block",
+      "block.unknownianmysteries.orange_wood_wood": "O-range Wood",
+      "itemGroup.tabdelari_items": "Delari Items",
+      "block.unknownianmysteries.unknownian_red_portal_block": "Unknownian Portal Block",
+      "advancements.unknownian_green_dream.descr": "Adventure to the Green Dream",
+      "item.unknownianmysteries.unknownian_staff_of_power": "Unknownian Staff Of Power",
+      "item.unknownianmysteries.unknownian_disc_0.desc": "A Music Disc of the True Unknown",
+      "biome.unknownianmysteries.blue_moon_lowlands": "Blue Moon Highlands",
+      "item.unknownianmysteries.unknownian_disc_6.desc": "A Music Disc of the Unknown",
+      "entity.unknownianmysteries.restature": "Restature",
+      "item.unknownianmysteries.untextured_realm": "Untextured Realm Core",
+      "block.unknownianmysteries.o_range_grass": "O-Range Grass",
+      "advancements.unknownian_blue_moon.title": "Next we are going to steal, THE MOON?",
+      "item.unknownianmysteries.blue_moon": "Blue Realm Core",
+      "biome.unknownianmysteries.cyan_warm_ocean": "Cyan Sea",
+      "advancements.unknownian_blue_moon.descr": "Adventure to the Blue Moon...good luck!",
+      "subtitles.unknownianamongdrip": "Music of the Unknown",
+      "item.unknownianmysteries.oofer_sword": "Oofer Sword",
+      "block.unknownianmysteries.orange_wood_pressure_plate": "O-range Pressure Plate",
+      "biome.unknownianmysteries.blue_moon_flatlands": "Blue Moon Highlands",
+      "advancements.unknownian_mysteries_start.title": "Unknownian Mysteries",
+      "subtitles.unknowniantruesong": "Music of the True Unknown",
+      "block.unknownianmysteries.unknownian_dirt": "Unknownian Dirt",
+      "block.unknownianmysteries.unknownian_grass": "Unknownian Grass",
+      "entity.unknownianmysteries.unknownian_drone": "Unknownian Drone",
+      "item.unknownianmysteries.unknownian_disc_9": "Unknownian Disc #9",
+      "item.unknownianmysteries.unknownian_disc_8": "Unknownian Disc #8",
+      "subtitles.unknownianoverwrite": "Music of the Unknown",
+      "block.unknownianmysteries.orange_wood_fence": "O-range Fence",
+      "item.unknownianmysteries.unknownian_disc_7": "Unknownian Disc #7",
+      "advancements.get_unknownian_raw_metal.title": "What is this, RAW? Disgusting...",
+      "item.unknownianmysteries.unknownian_disc_6": "Unknownian Disc #6",
+      "key.unknownianmysteries.unknownian_switch_mode": "Switch Weapon Mode",
+      "item.unknownianmysteries.unknownian_disc_5": "Unknownian Disc #5",
+      "item.unknownianmysteries.un_gravitizer": "Un-Gravitizer",
+      "item.unknownianmysteries.unknownian_disc_4": "Unknownian Disc #4",
+      "item.unknownianmysteries.unknownian_disc_3": "Unknownian Disc #3",
+      "item.unknownianmysteries.unknownian_disc_2": "Unknownian Disc #2",
+      "advancements.unknownian_cyan_sea.title": "You darn kids get off my property!",
+      "item.unknownianmysteries.unknownian_disc_1": "Unknownian Disc #1",
+      "advancements.make_hidden_chest_in_stone.title": "Your a sneaky little imposter aren\u0027t you?",
+      "item.unknownianmysteries.unknownian_disc_0": "Unknownian Disc #0",
+      "block.unknownianmysteries.unknownian_nuke": "Unknownian Nuke",
+      "item.unknownianmysteries.unknownian_power_core": "Unknownian Power Core",
+      "item.unknownianmysteries.redidos_spawn_egg": "Redidos Spawn Egg",
+      "advancements.get_unknownian_metal.descr": "Obtain the unstable Unknownian Metal. Use wisely!",
+      "item.unknownianmysteries.formated_realm_core": "Formated Realm Core",
+      "effect.blue_moon_sickness": "Blue Moon Sickness",
+      "block.unknownianmysteries.orange_wood_planks": "O-range Planks",
+      "subtitles.greendeathsoundunknownian": "Green dude dying",
+      "item.unknownianmysteries.unknownian_raw_metal": "Unknownian Raw Metal",
+      "item.unknownianmysteries.unknownian_disc_9.desc": "A Music Disc of the Unknown",
+      "block.unknownianmysteries.orange_wood_log": "O-range Log",
+      "subtitles.unknownianfuture": "Music of the Unknown",
+      "block.unknownianmysteries.fake_stone_hidden_chest": "Fake Stone Hidden Chest",
+      "biome.unknownianmysteries.untextured_other_biome": "Untextured Other Biome",
+      "item.unknownianmysteries.blue_moon_protection_suit_armor_helmet": "BlueMoonProtectionSuit Helmet",
+      "item.unknownianmysteries.blue_moon_protection_suit_armor_boots": "BlueMoonProtectionSuit Boots",
+      "subtitles.unknownianduckgame": "Music of the Unknown",
+      "advancements.unknownian_green_dream.title": "I wear a mask with a smile...",
+      "block.unknownianmysteries.orange_wood_button": "OrangeWood Button",
+      "item.unknownianmysteries.orange_wood_stick": "O-range Stick",
+      "item.unknownianmysteries.blue_moon_protection_suit_armor_leggings": "BlueMoonProtectionSuit Leggings",
+      "entity.unknownianmysteries.redidos": "Redidos",
+      "item.unknownianmysteries.unknownian_disc_8.desc": "A Music Disc of the Unknown",
+      "item.unknownianmysteries.untextured_cube_spawn_egg": "Untextured Cube Spawn Egg",
+      "block.unknownianmysteries.unknownian_metal_ore": "Unknownian Metal Ore",
+      "subtitles.unknownianvania": "Music of the Unknown",
+      "advancements.unknownian_portal_obtained.descr": "Obtain an Unknownian Portal Block, you use these for most of the mod!",
+      "subtitles.futureunknownian": "Music of the Unknown",
+      "advancements.unknownian_red_lands.title": "This place is bloody good!",
+      "item.unknownianmysteries.unknownian_disc_1.desc": "A Music Disc of the Unknown",
+      "item.unknownianmysteries.unknownian_disc_7.desc": "A Music Disc of the Unknown",
+      "advancements.unknownian_red_lands.descr": "Adventure to the Red Lands!",
+      "block.unknownianmysteries.orange_wood_slab": "O-range Slab",
+      "biome.unknownianmysteries.crazy_green_dream": "Crazy Green Dream",
+      "item.unknownianmysteries.sussy_green_spawn_egg": "Sussy Green Spawn Egg",
+      "item.unknownianmysteries.unknownian_metal": "Unknownian Metal",
+      "subtitles.vaniaunknownian": "Music of the Unknown",
+      "block.unknownianmysteries.blue_moon_rock": "Blue Moon Rock",
+      "block.unknownianmysteries.delari_maze_floor": "Delari Maze Floor",
+      "advancements.unknownian_portal_obtained.title": "Ayy, that\u0027s pretty good!",
+      "item.unknownianmysteries.delari_prize": "The Delari Prize",
+      "block.unknownianmysteries.unknownian_block_of_mystery": "Unknownian Block Of Mystery",
+      "item.unknownianmysteries.green_dream": "Green Realm Core",
+      "block.unknownianmysteries.o_range_stone": "O-range Stone",
+      "item.unknownianmysteries.unknownian_weapon_sword_mode": "Unknownian Weapon",
+      "block.unknownianmysteries.unknownian_replicator": "Unknownian Replicator",
+      "item.unknownianmysteries.unknownian_weapon_gun_form": "Unknownian Weapon",
+      "entity.unknownianmysteries.sussy_green": "Sussy Green",
+      "subtitles.unknownianredzone": "Music of the Unknown"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Corrupted Blocks",
+        "children": []
+      },
+      {
+        "name": "Untextured Realm",
+        "children": []
+      },
+      {
+        "name": "Unknownian Discs",
+        "children": []
+      },
+      {
+        "name": "Red Lands",
+        "children": []
+      },
+      {
+        "name": "O-range",
+        "children": []
+      },
+      {
+        "name": "Yello Jello",
+        "children": []
+      },
+      {
+        "name": "Green Dream",
+        "children": []
+      },
+      {
+        "name": "Cyan Sea",
+        "children": []
+      },
+      {
+        "name": "Blue Moon",
+        "children": []
+      },
+      {
+        "name": "Purple Isles",
+        "children": []
+      },
+      {
+        "name": "Pink Hell",
+        "children": []
+      },
+      {
+        "name": "Bright Paradise",
+        "children": []
+      },
+      {
+        "name": "Dark Void",
+        "children": []
+      },
+      {
+        "name": "Delari Maze",
+        "children": [
+          {
+            "name": "Adaphas",
+            "children": []
+          },
+          {
+            "name": "OoferDoge",
+            "children": []
+          },
+          {
+            "name": "FuntimeIsBest",
+            "children": []
+          },
+          {
+            "name": "XDHGAMER907",
+            "children": []
+          },
+          {
+            "name": "EpicCharaDreemur",
+            "children": []
+          },
+          {
+            "name": "Chancy_",
+            "children": []
+          },
+          {
+            "name": "RandomGamez",
+            "children": []
+          },
+          {
+            "name": "Samyak",
+            "children": []
+          },
+          {
+            "name": "-Egislash-",
+            "children": []
+          },
+          {
+            "name": "-Weapon2-",
+            "children": []
+          },
+          {
+            "name": "-Weapon3-",
+            "children": []
+          },
+          {
+            "name": "-Weapon4-",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "unknownianmysteries",
+    "modName": "UnknownianMysteries",
+    "version": "1.0.0",
+    "description": "Best used with SolarCraft mod by OoferDoge!",
+    "author": "Adaphas",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "ohno",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.unknownianmysteries",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

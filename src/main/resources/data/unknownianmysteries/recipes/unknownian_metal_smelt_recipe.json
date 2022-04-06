@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 69,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "unknownianmysteries:unknownian_raw_metal"
+  },
+  "result": {
+    "item": "unknownianmysteries:unknownian_metal"
+  }
+}

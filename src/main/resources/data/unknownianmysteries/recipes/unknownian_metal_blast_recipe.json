@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 69,
+  "cookingtime": 1200,
+  "ingredient": {
+    "item": "unknownianmysteries:unknownian_raw_metal"
+  },
+  "result": {
+    "item": "unknownianmysteries:unknownian_metal"
+  }
+}

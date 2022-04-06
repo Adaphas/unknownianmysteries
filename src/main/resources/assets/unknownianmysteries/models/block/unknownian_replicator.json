@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "unknownianmysteries:blocks/dumbdubdb",
+    "particle": "unknownianmysteries:blocks/testing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Blue Moon Sickness",
+    "icon": "bluemoonsickness.png",
+    "color": {
+      "value": -16776961,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BlueMoonSicknessEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "BlueMoonSicknessOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "BlueMoonSicknessEffectExpires"
+    }
+  }
+}

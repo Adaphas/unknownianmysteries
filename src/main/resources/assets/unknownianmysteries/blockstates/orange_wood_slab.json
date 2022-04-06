@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "unknownianmysteries:block/orange_wood_slab"
+    },
+    "type=top": {
+      "model": "unknownianmysteries:block/orange_wood_slab_top"
+    },
+    "type=double": {
+      "model": "unknownianmysteries:block/orange_wood_slab_full"
+    }
+  }
+}

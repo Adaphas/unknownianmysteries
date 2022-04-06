@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "unknownianmysteries:blocks/orangewood_planks"
+  }
+}

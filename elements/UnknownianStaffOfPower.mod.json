@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "staffofpower",
+    "customModelName": "Normal",
+    "name": "Unknownian Staff Of Power",
+    "specialInfo": [
+      "This staff was used by the Unknownians of Old!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 267,
+    "efficiency": 25.0,
+    "attackSpeed": 2.0,
+    "enchantability": 100000,
+    "damageVsEntity": 267.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UnknownianPowerCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "UnknownianStaffOfPowerRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "UnknownianStaffOfPowerItemIsCraftedsmelted"
+    }
+  }
+}

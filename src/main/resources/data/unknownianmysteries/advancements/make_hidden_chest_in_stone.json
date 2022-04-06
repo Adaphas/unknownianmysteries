@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:fake_stone_hidden_chest"
+    },
+    "title": {
+      "translate": "advancements.make_hidden_chest_in_stone.title"
+    },
+    "description": {
+      "translate": "advancements.make_hidden_chest_in_stone.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "make_hidden_chest_in_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unknownianmysteries:fake_stone_hidden_chest",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "unknownianmysteries:get_unknownian_metal"
+}

@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:ORangeForest"
+      },
+      {
+        "value": "CUSTOM:ORangePlains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:ORangeStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:UnknownianRedPortalBlock"
+    },
+    "portalParticles": {
+      "value": "LAVA"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.fire.ambient"
+    },
+    "igniterName": "Orange Realm Core",
+    "igniterTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "texture": "orangecore",
+    "portalTexture": "orangeportal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UntexturedRealmPortalTriggerUsed"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "unknownianmysteries:custom/uncraftedblock",
+  "textures": {
+    "all": "unknownianmysteries:blocks/mistake",
+    "particle": "unknownianmysteries:blocks/mistake",
+    "0": "unknownianmysteries:blocks/mistake"
+  }
+}

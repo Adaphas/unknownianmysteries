@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "unknownianmysteries:blocks/orangewood_planks",
+    "top": "unknownianmysteries:blocks/orangewood_planks",
+    "side": "unknownianmysteries:blocks/orangewood_planks"
+  }
+}

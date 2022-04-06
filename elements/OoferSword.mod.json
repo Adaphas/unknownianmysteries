@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cadensword",
+    "customModelName": "Normal",
+    "name": "Oofer Sword",
+    "specialInfo": [
+      "Based off of the user OoferDoge."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DelariItems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 9,
+    "efficiency": 4.0,
+    "attackSpeed": 5.0,
+    "enchantability": 2,
+    "damageVsEntity": 30.0,
+    "usageCount": 4062,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

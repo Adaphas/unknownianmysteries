@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:red_lands"
+    },
+    "title": {
+      "translate": "advancements.unknownian_red_lands.title"
+    },
+    "description": {
+      "translate": "advancements.unknownian_red_lands.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknownian_red_lands": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "unknownianmysteries:red_lands"
+      }
+    }
+  },
+  "parent": "unknownianmysteries:unknownian_portal_obtained"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "T",
+    "keyBindingName": "Switch Weapon Mode",
+    "keyBindingCategoryKey": "unknownian",
+    "onKeyPressed": {
+      "name": "UnknownianSwitchModeOnKeyPressed"
+    }
+  }
+}

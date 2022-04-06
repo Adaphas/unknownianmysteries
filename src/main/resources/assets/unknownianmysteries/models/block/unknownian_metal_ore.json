@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unknownianmysteries:blocks/unknownianmetalore",
+    "particle": "unknownianmysteries:blocks/unknownianmetalore"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc0",
+    "name": "Unknownian Disc #0",
+    "description": "A Music Disc of the True Unknown",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "music": {
+      "value": "CUSTOM:unknowniantruesong"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

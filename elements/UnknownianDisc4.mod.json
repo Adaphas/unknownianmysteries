@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc4",
+    "name": "Unknownian Disc #4",
+    "description": "A Music Disc of the Unknown",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "music": {
+      "value": "CUSTOM:unknownianamongdrip"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

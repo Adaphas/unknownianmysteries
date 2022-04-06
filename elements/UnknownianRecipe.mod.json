@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UnknownianDisc8"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc1"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc2"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc7"
+      },
+      {
+        "value": "CUSTOM:UnknownianPowerCore"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc3"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc6"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc5"
+      },
+      {
+        "value": "CUSTOM:UnknownianDisc4"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnknownianStaffOfPower"
+    },
+    "name": "unknownian_recipe",
+    "namespace": "mod"
+  }
+}

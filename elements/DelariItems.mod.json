@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Delari Items",
+    "icon": {
+      "value": "CUSTOM:DelariPrize"
+    },
+    "showSearch": false
+  }
+}

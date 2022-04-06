@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:UntexturedBiome"
+      },
+      {
+        "value": "CUSTOM:UntexturedOtherBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:UntexturedRealmBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:UntexturedRealmBlock"
+    },
+    "airColor": {
+      "value": -8092540,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:UntexturedRealmBlock"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.beacon.ambient"
+    },
+    "igniterName": "Untextured Realm Core",
+    "igniterTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "texture": "portalcore",
+    "portalTexture": "untexturedtexture",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UntexturedRealmPortalTriggerUsed"
+    }
+  }
+}

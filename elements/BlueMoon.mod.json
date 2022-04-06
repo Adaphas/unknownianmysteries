@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:BlueMoonHighlands"
+      },
+      {
+        "value": "CUSTOM:BlueMoonFlatlands"
+      },
+      {
+        "value": "CUSTOM:BlueMoonLowlands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:BlueMoonRock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:BlueMoonRock"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "BlueMoonGravityStart"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "BlueMoonGravityStop"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:UnknownianRedPortalBlock"
+    },
+    "portalParticles": {
+      "value": "SOUL_FIRE_FLAME"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "ambient.cave"
+    },
+    "igniterName": "Blue Realm Core",
+    "igniterTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "texture": "bluecore",
+    "portalTexture": "blueportal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UntexturedRealmPortalTriggerUsed"
+    }
+  }
+}

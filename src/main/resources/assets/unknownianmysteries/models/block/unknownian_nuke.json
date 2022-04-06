@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unknownianmysteries:blocks/nuketexture",
+    "up": "unknownianmysteries:blocks/nuketexture",
+    "north": "unknownianmysteries:blocks/nukeside",
+    "east": "unknownianmysteries:blocks/nukeside",
+    "south": "unknownianmysteries:blocks/nukeside",
+    "west": "unknownianmysteries:blocks/nukeside",
+    "particle": "unknownianmysteries:blocks/nuketexture"
+  }
+}

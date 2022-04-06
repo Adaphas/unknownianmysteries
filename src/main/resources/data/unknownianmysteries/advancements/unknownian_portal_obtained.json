@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:unknownian_red_portal_block"
+    },
+    "title": {
+      "translate": "advancements.unknownian_portal_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.unknownian_portal_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknownian_portal_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unknownianmysteries:unknownian_red_portal_block",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "unknownianmysteries:get_unknownian_metal"
+}

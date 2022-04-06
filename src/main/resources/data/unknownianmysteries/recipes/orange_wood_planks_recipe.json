@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:orangewood_log"
+    }
+  ],
+  "result": {
+    "item": "unknownianmysteries:orange_wood_planks",
+    "count": 4
+  }
+}

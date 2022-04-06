@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "unknownianmysteries:blocks/orangedirt",
+    "top": "unknownianmysteries:blocks/orangegrasstop",
+    "side": "unknownianmysteries:blocks/orangegrass",
+    "overlay": "unknownianmysteries:blocks/orangedirt",
+    "particle": "unknownianmysteries:blocks/orangedirt"
+  }
+}

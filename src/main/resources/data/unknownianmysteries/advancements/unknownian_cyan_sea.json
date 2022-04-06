@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "unknownianmysteries:cyan_sea"
+    },
+    "title": {
+      "translate": "advancements.unknownian_cyan_sea.title"
+    },
+    "description": {
+      "translate": "advancements.unknownian_cyan_sea.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknownian_cyan_sea": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "unknownianmysteries:cyan_sea"
+      }
+    }
+  },
+  "parent": "unknownianmysteries:unknownian_portal_obtained"
+}

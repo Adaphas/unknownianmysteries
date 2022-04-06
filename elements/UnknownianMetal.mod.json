@@ -1,0 +1,51 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "unknownianmetal",
+    "customModelName": "Normal",
+    "name": "Unknownian Metal",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:UnknownianMysteriesTab"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "This metal is very unstable. A place where it's always hot may not be the best place for this metal."
+    ],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "UnknownianMetalMakeItemGlow"
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onCrafted": {
+      "name": "UnknownianMetalItemInHandTick"
+    },
+    "onItemInInventoryTick": {
+      "name": "UnknownianMetalItemInHandTick"
+    },
+    "onItemInUseTick": {
+      "name": "UnknownianMetalItemInHandTick"
+    },
+    "onDroppedByPlayer": {
+      "name": "UnknownianMetalItemInHandTick"
+    },
+    "hasDispenseBehavior": false
+  }
+}
